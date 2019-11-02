@@ -1,0 +1,63 @@
+
+.scrolltop {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-family: 'Sans-serif';
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  background-color: #84ba3f;
+  /*! color: #b3b3b3; */
+  -moz-box-shadow: 0px 0px 5px 2px #999999;
+  -webkit-box-shadow: 0px 0px 5px 2px #999999;
+  box-shadow: 0px 0px 5px 2px #262323;
+  visibility: hidden;
+  opacity: 0;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.scrolltop:visited {
+  color: #b3b3b3;
+}
+
+.scrolltop:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.scrolltop:focus {
+  text-decoration: none;
+}
+
+.scrolltop.active {
+  visibility: visible;
+  opacity: 1;
+}
+ .button, .button:focus {
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: teal;
+        }
+        .button:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        .custom-scrolltop {
+            font-size: 1.5em;
+            line-height: 40px;
+            border-radius: 50%;
+        }
+

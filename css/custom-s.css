@@ -1,0 +1,51 @@
+@media screen and (max-width: 850px) {
+  .lemon-1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .services-contac-1  {
+    width: 90%;
+    margin: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .fname,.lname {
+   margin-top: auto;
+   margin-top: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .service-3, .service-4 , .service-5 {
+   margin-top: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+ .fish-3 , {
+   margin-top: auto;
+   height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+ .orange-1,.orange-0,.orange{
+   margin: auto;
+   height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+ .fish-1{
+   margin: auto;
+   height: 434px;
+
+  }
+}
+@media screen and (max-width: 768px) {
+ .fish{
+   margin: auto;
+   height: auto;
+
+  }
+}
